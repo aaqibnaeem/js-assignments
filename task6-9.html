@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6-9</title>
+</head>
+
+<body>
+    <h1>Task 6-9</h1>
+
+    <script>
+        // // 1
+        // var a = 10;
+        // document.write("Result : "+"<br/>");
+        // document.write("The value of a is :"+a+"<br/>");
+        // document.write("..................................... <br/>"+"<br/>");
+
+        // document.write("The value of ++a is : "+ ++a +"<br/>");
+        // document.write("Now the value of a is : "+a+"<br/>"+"<br/>");
+
+        // document.write("The value of a++ is : "+ a++ +"<br/>");
+        // document.write("Now the value of a is : "+a+"<br/>"+"<br/>");
+
+        // document.write("The value of --a is : "+ --a +"<br/>");
+        // document.write("Now the value of a is : "+a+"<br/>"+"<br/>");
+
+        // document.write("The value of a-- is : "+ a-- +"<br/>");
+        // document.write("Now the value of a is : "+a+"<br/>"+"<br/>");
+
+        // 2
+        // var a = 2, b = 1;
+        // var result = --a - --b + ++b + b--;
+        //     // --a >> 1
+        //     // --a - --b >> 1 - 0
+        //     // --a - --b + ++b >> 1 - 0 + 1
+        //     // --a - --b + ++b + b-- >> 1 - 0 + 1 + 1
+        //     // result will be = 3
+        // document.write("a is : "+a+"<br/>");
+        // document.write("b is : "+b+"<br/>");
+        // document.write("Result is : "+result)
+
+        // // 3
+        // var userName = prompt("Write your name");
+        // alert("Welcome to website "+userName);
+
+        // 4 - 5
+        // var tableOf;
+        // console.log(tableOf);
+        // tableOf = prompt("Write a number to print a table ", 5);
+        // if (tableOf == null || tableOf == undefined || tableOf == '') {
+        //     tableOf = 5;
+        //     document.write(tableOf + " x 1 = " + tableOf * 1 + "</br>");
+        //     document.write(tableOf + " x 2 = " + tableOf * 2 + "</br>");
+        //     document.write(tableOf + " x 3 = " + tableOf * 3 + "</br>");
+        //     document.write(tableOf + " x 4 = " + tableOf * 4 + "</br>");
+        //     document.write(tableOf + " x 5 = " + tableOf * 5 + "</br>");
+        //     document.write(tableOf + " x 6 = " + tableOf * 6 + "</br>");
+        //     document.write(tableOf + " x 7 = " + tableOf * 7 + "</br>");
+        //     document.write(tableOf + " x 8 = " + tableOf * 8 + "</br>");
+        //     document.write(tableOf + " x 9 = " + tableOf * 9 + "</br>");
+        //     document.write(tableOf + " x 10 = " + tableOf * 10 + "</br>");
+        // } else {
+        //     document.write(tableOf + " x 1 = " + tableOf * 1 + "</br>");
+        //     document.write(tableOf + " x 2 = " + tableOf * 2 + "</br>");
+        //     document.write(tableOf + " x 3 = " + tableOf * 3 + "</br>");
+        //     document.write(tableOf + " x 4 = " + tableOf * 4 + "</br>");
+        //     document.write(tableOf + " x 5 = " + tableOf * 5 + "</br>");
+        //     document.write(tableOf + " x 6 = " + tableOf * 6 + "</br>");
+        //     document.write(tableOf + " x 7 = " + tableOf * 7 + "</br>");
+        //     document.write(tableOf + " x 8 = " + tableOf * 8 + "</br>");
+        //     document.write(tableOf + " x 9 = " + tableOf * 9 + "</br>");
+        //     document.write(tableOf + " x 10 = " + tableOf * 10 + "</br>");
+        // }
+
+        // 6
+        // var sub_one = prompt("Enter First subject name : ");
+        // var sub_two = prompt("Enter Second subject name : ");
+        // var sub_three = prompt("Enter Third subject name : ");
+        
+        // var sub_one_max_marks = 100;
+        // var sub_two_max_marks = 100;
+        // var sub_three_max_marks = 100;
+        
+        // var sub_one_obt = parseInt(prompt("Enter marks Obtained for "+sub_one));
+        // var sub_two_obt = parseInt(prompt("Enter marks Obtained for : "+sub_two));
+        // var sub_three_obt = parseInt(prompt("Enter marks Obtained for: "+sub_three));
+       
+        // var sub_one_per = (sub_one_obt/sub_one_max_marks)*100;
+        // var sub_two_per = (sub_two_obt/sub_two_max_marks)*100;
+        // var sub_three_per = (sub_three_obt/sub_three_max_marks)*100;
+        
+        // var net_total_marks = (sub_one_max_marks + sub_two_max_marks + sub_three_max_marks);
+        // var net_total_obt = (sub_one_obt + sub_two_obt + sub_three_obt);
+        // var net_total_per = (sub_one_per + sub_two_per + sub_three_per);
+        // document.write("<table>");
+        //     // Heading Row
+        //     document.write("<tr>");
+        //         document.write("<td>");
+        //             document.write("<b>Subject</b>");
+        //         document.write("</td>");
+        //         document.write("<td>");
+        //             document.write("<b>Total Marks</b>");
+        //         document.write("</td>");
+        //         document.write("<td>");
+        //             document.write("<b>Obtained Marks</b>");
+        //         document.write("</td>");
+        //         document.write("<td>");
+        //             document.write("ُ<b>percentage</b>");
+        //         document.write("</td>");
+        //     document.write("</tr>");
+        //     // Subject one Row
+        //     document.write("<tr>");
+        //         document.write("<td>");
+        //             document.write(sub_one);
+        //         document.write("</td>");
+        //         document.write("<td>");
+        //             document.write(sub_one_max_marks);
+        //         document.write("</td>");
+        //         document.write("<td>");
+        //             document.write(sub_one_obt);
+        //         document.write("</td>");
+        //         document.write("<td>");
+        //             document.write(sub_one_per+"%");
+        //         document.write("</td>");
+        //     document.write("</tr>");
+        //     // Subject two row
+        //     document.write("<tr>");
+        //         document.write("<td>");
+        //             document.write(sub_two);
+        //         document.write("</td>");
+        //         document.write("<td>");
+        //             document.write(sub_two_max_marks);
+        //         document.write("</td>");
+        //         document.write("<td>");
+        //             document.write(sub_two_obt);
+        //         document.write("</td>");
+        //         document.write("<td>");
+        //             document.write(sub_two_per+"%");
+        //         document.write("</td>");
+        //     document.write("</tr>");
+        //     // Subject three row
+        //     document.write("<tr>");
+        //         document.write("<td>");
+        //             document.write(sub_three);
+        //         document.write("</td>");
+        //         document.write("<td>");
+        //             document.write(sub_three_max_marks);
+        //         document.write("</td>");
+        //         document.write("<td>");
+        //             document.write(sub_three_obt);
+        //         document.write("</td>");
+        //         document.write("<td>");
+        //             document.write(sub_three_per+"%");
+        //         document.write("</td>");
+        //     document.write("</tr>");
+        //     // Totals row
+        //     document.write("<tr>");
+        //         document.write("<td>");
+        //             document.write("");
+        //         document.write("</td>");
+        //         document.write("<td>");
+        //             document.write("<b>"+net_total_marks+"</b>");
+        //         document.write("</td>");
+        //         document.write("<td>");
+        //             document.write("<b>"+net_total_obt+"</b>");
+        //         document.write("</td>");
+        //         document.write("<td>");
+        //             document.write("<b>"+net_total_per+"%"+"</b>");
+        //         document.write("</td>");
+        //     document.write("</tr>");
+        //     document.write("</table>");
+    </script>
+</body>
+
+</html>
